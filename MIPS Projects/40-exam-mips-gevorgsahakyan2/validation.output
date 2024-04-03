@@ -1,0 +1,137 @@
+cd java ; make test_java ; cd ..
+2# 10011010010.01101110100111100001101 <- Correct output
+2# 10011010010.01101110100111100001101
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         10; 0x00 00 00 0A; 0b0000 0000 0000 0000 0000 0000 0000 1010;
+
+Correct V0: 10
+
+2# 1111101011001110.11011110101010110011011 <- Correct output
+2# 1111101011001110.11011110101010110011011
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         16; 0x00 00 00 10; 0b0000 0000 0000 0000 0000 0000 0001 0000;
+
+Correct V0: 16
+
+2# 1010011100.10001010001111010111000 <- Correct output
+2# 1010011100.10001010001111010111000
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          8; 0x00 00 00 08; 0b0000 0000 0000 0000 0000 0000 0000 1000;
+
+Correct V0:  8
+
+2# 1010011100.100011 <- Correct output
+2# 1010011100.100011
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          8; 0x00 00 00 08; 0b0000 0000 0000 0000 0000 0000 0000 1000;
+
+Correct V0:  8
+
+Previous HEAD position was 34d60c8 fixing java
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 46 commits.
+  (use "git push" to publish your local commits)
+cd java_tac ; make test_java ; cd ..
+2# 10011010010.01101110100111100001101 <- Correct output
+2# 10011010010.01101110100111100001101
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         10; 0x00 00 00 0A; 0b0000 0000 0000 0000 0000 0000 0000 1010;
+
+Correct V0: 10
+
+2# 1111101011001110.11011110101010110011011 <- Correct output
+2# 1111101011001110.11011110101010110011011
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         16; 0x00 00 00 10; 0b0000 0000 0000 0000 0000 0000 0001 0000;
+
+Correct V0: 16
+
+2# 1010011100.10001010001111010111000 <- Correct output
+2# 1010011100.10001010001111010111000
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          8; 0x00 00 00 08; 0b0000 0000 0000 0000 0000 0000 0000 1000;
+
+Correct V0:  8
+
+2# 1010011100.100011 <- Correct output
+2# 1010011100.100011
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          8; 0x00 00 00 08; 0b0000 0000 0000 0000 0000 0000 0000 1000;
+
+Correct V0:  8
+
+Previous HEAD position was 991eaf6 fixing java-tac
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 46 commits.
+  (use "git push" to publish your local commits)
+cd mips ; make test_mips ; cd ..
+2# 10011010010.01101110100111100001101 <- Correct output
+2# 10011010010.01101110100111100001101
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         10; 0x00 00 00 0A; 0b0000 0000 0000 0000 0000 0000 0000 1010;
+
+Correct V0: 10
+
+2# 1111101011001110.11011110101010110011011 <- Correct output
+2# 1111101011001110.11011110101010110011011
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         16; 0x00 00 00 10; 0b0000 0000 0000 0000 0000 0000 0001 0000;
+
+Correct V0: 16
+
+2# 1010011100.10001010001111010111000 <- Correct output
+2# 1010011100.10001010001111010111000
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          8; 0x00 00 00 08; 0b0000 0000 0000 0000 0000 0000 0000 1000;
+
+Correct V0:  8
+
+2# 1010011100.100011 <- Correct output
+2# 1010011100.100011
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          8; 0x00 00 00 08; 0b0000 0000 0000 0000 0000 0000 0000 1000;
+
+Correct V0:  8
+
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 46 commits.
+  (use "git push" to publish your local commits)
+Already on 'main'
+Your branch is ahead of 'origin/main' by 46 commits.
+  (use "git push" to publish your local commits)

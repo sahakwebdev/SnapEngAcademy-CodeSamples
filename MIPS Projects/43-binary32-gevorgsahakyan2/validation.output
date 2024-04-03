@@ -1,0 +1,72 @@
+java_subroutine encode_binary32 '-'  "2#101011010101" + 101
+#########################################
+# Above is the output from your program
+#########################################
+
+v0: -231911424; 0xF2 2D 50 00; 0b1111 0010 0010 1101 0101 0000 0000 0000;
+
+Correct answer:  0xF2 2D 50 00
+
+java_subroutine encode_binary32 '-'  11184810 - 42
+#########################################
+# Above is the output from your program
+#########################################
+
+v0: -1431655766; 0xAA AA AA AA; 0b1010 1010 1010 1010 1010 1010 1010 1010;
+
+Correct answer:  0xAA AA AA AA
+
+java_subroutine encode_binary32 '+' 0x0001 '-' 127
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+Correct answer:  0x00 00 00 00
+
+java_subroutine encode_binary32 '-' 0XFFFFFF '+' 128 
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         -1; 0xFF FF FF FF; 0b1111 1111 1111 1111 1111 1111 1111 1111;
+
+Correct answer:  0xFF FF FF FF
+
+mips_subroutine encode_binary32 '-'  "2#101011010101" + 101
+#########################################
+# Above is the output from your program
+#########################################
+
+v0: -231911424; 0xF2 2D 50 00; 0b1111 0010 0010 1101 0101 0000 0000 0000;
+
+Correct answer:  0xF2 2D 50 00
+
+mips_subroutine encode_binary32 '-'  11184810 - 42
+#########################################
+# Above is the output from your program
+#########################################
+
+v0: -1431655766; 0xAA AA AA AA; 0b1010 1010 1010 1010 1010 1010 1010 1010;
+
+Correct answer:  0xAA AA AA AA
+
+mips_subroutine encode_binary32 '+' 0x0001 '-' 127
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+Correct answer:  0x00 00 00 00
+
+mips_subroutine encode_binary32 '-' 0XFFFFFF '+' 128 
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:         -1; 0xFF FF FF FF; 0b1111 1111 1111 1111 1111 1111 1111 1111;
+
+Correct answer:  0xFF FF FF FF
+
